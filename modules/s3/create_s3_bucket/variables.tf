@@ -12,3 +12,8 @@ variable "tag_test_feature" {
   description = "What feature of AWS are you testing"
   type        = string
 }
+
+variable "timestamp" {
+  description = "Timestamp"
+  type        = string
+}
